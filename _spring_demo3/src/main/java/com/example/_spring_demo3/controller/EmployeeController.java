@@ -20,9 +20,9 @@ public class EmployeeController {
 
     @PostConstruct
     private void loadData(){
-        Employee emp1 = new Employee(1,"tuan","ngoc", "abc@gmail.com");
-        Employee emp2 = new Employee(2,"tuan","ngoc", "abc@gmail.com");
-        Employee emp3 = new Employee(3,"tuan","ngoc", "abc@gmail.com");
+        Employee emp1 = new Employee(1,"tuan","ngoc", "tuangoc@gmail.com");
+        Employee emp2 = new Employee(2,"tuan","ngoc 1", "tuangoc@gmail.com");
+        Employee emp3 = new Employee(3,"tuan","ngoc 2", "tuangoc@gmail.com");
 
         theEmployees = new ArrayList<>();
 
